@@ -15,14 +15,14 @@ body{
     background-color: #010101;
     background-repeat: no-repeat ;
     background-attachment: fixed !important;
-    background: url(../img/fondo.JPG);
+    background: url(./img/fondo.JPG);
     background-size:cover;
     background-position: center;
     overflow: hidden;
 }
 
 :root{
-    --gris: #D9DADA;
+    --gray: #D9DADA;
     --red: #BF1832;
 }
 
@@ -53,7 +53,7 @@ body{
 }
 
 .nav ul li a{
-    color:var(--gris);
+    color:var(--gray);
     font-size: 14px;
 }
 .nav ul li .active{
@@ -74,12 +74,12 @@ body{
     text-decoration: none;
     width: 30px;
     height: 30px;
-    border: 2px solid var(--gris);
+    border: 2px solid var(--gray);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--gris);
+    color:var(--gray);
     font-size: 13px;
 }
 

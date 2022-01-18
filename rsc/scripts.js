@@ -6,12 +6,12 @@ TweenLite.set("img",{xPercent:"-50%", yPercent:"-50%"});
 var total=30;
 var container = document.getElementById("container"), w = window.innerWidth, h = window.innerHeight;
 
-let cursos = ['../img/logos/css3.png','../img/logos/html5.png','../img/logos/ionic.png','../img/logos/react.png',
-'../img/logos/ai.png','../img/logos/angular.png','../img/logos/azure.png','../img/logos/blueprism.png',
-'../img/logos/c.png','../img/logos/cosmosdb.png','../img/logos/docker.png','../img/logos/golang.png',
-'../img/logos/gsap.png','../img/logos/nodejs.png','../img/logos/oracle.png',
-'../img/logos/python.png','../img/logos/sass.png','../img/logos/xd.png',
-'../img/logos/knime.png']
+let cursos = ['./img/logos/css3.png','./img/logos/html5.png','./img/logos/ionic.png','./img/logos/react.png',
+'./img/logos/ai.png','./img/logos/angular.png','./img/logos/azure.png','./img/logos/blueprism.png',
+'./img/logos/c.png','./img/logos/cosmosdb.png','./img/logos/docker.png','./img/logos/golang.png',
+'./img/logos/gsap.png','./img/logos/nodejs.png','./img/logos/oracle.png',
+'./img/logos/python.png','./img/logos/sass.png','./img/logos/xd.png',
+'./img/logos/knime.png']
 
 for (i=0; i<total;i++){
     var Div = document.createElement('div');
